@@ -8,7 +8,7 @@ metadata:
     #vmoperator.vmware.com/cloudinit-type: cloudinitprep
 spec:
   className: best-effort-small
-  imageName: ent.box.com/s/0qfqejtzncqtmvu9441qryahkfutv6ob
+  imageName: ent.box.com/s/0qfqejtzncqtmvu9441qryahkfutv6ob/tinywin.ova
   powerState: poweredOn
   vmMetadata:
     secretName: sysprep-bootstrap-data
