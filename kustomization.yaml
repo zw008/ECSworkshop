@@ -6,7 +6,6 @@ resources:
   - ai_edge_1.yaml
   - ai_edge_2.yaml
   - ai_edge_3.yaml
-  - k8s-dashboard.yaml
 
 patches:
   - patch: |
