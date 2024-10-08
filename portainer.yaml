@@ -3,6 +3,24 @@ kind: Namespace
 metadata:
   name: portainer
 ---
+
+kind: Service
+apiVersion: v1
+metadata:
+  labels:
+    k8s-app: portainer
+  name: portainer
+  namespace: portainer
+spec:
+  type: NodePort
+  ports:
+    - name: http
+      port: 80
+      targetPort: 9091
+      nodePort: 30091
+  selector:
+    k8s-app: portainer
+    
 # Source: portainer/templates/serviceaccount.yaml
 apiVersion: v1
 kind: ServiceAccount
