@@ -4,4 +4,12 @@ resources:
   - k8s-dashboard.yaml
   - hello-ecs.yaml
   - esx-ntp-config.yaml
+  - 00-ecs-config.yaml
+  - 10-ns.yaml
+  - 20-pv.yaml
+  - 30-prometheus.yaml
+  - 40-grafana-cm (1).yaml
+  - 50-grafana.yaml
+  - portainer.yaml
+  - ./simple
 
