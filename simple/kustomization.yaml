@@ -6,6 +6,7 @@ resources:
   - ai_edge_3.yaml
   - 20-vm-linux.yaml
   - hello-ecs.yaml
+  - 30-vm-windows.yaml
 
 patches:
   - patch: |
